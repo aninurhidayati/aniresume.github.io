@@ -1,1 +1,1 @@
-# aniresume.github.io
+# resume.github.io
