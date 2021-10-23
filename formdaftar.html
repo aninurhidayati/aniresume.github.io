@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form Pendaftaran</title>
+  </head>
+  <body>
+    <form action="#" method="post">
+      <!-- form field dibuat diantara form -->
+      <fieldset>
+        <legend>FORM DATA</legend>
+        <table>
+          <tr>
+            <td>Nama Lengkap</td>
+            <td>
+              :
+              <input type="text" name="nama" id="nama" oninvalid="this.setCustomValidity('Nama wajib diisi!!')" oninput="setCustomValidity('')" required />
+            </td>
+          </tr>
+          <tr>
+            <td>Email</td>
+            <td>: <input type="email" name="txt_email" id="txt_email" /></td>
+          </tr>
+          <tr>
+            <td>Password</td>
+            <td>: <input type="password" name="password" id="password" /></td>
+          </tr>
+          <tr>
+            <td>Tanggal Lahir</td>
+            <td>: <input type="date" name="tgl_daftar" id="tgl_daftar" /></td>
+          </tr>
+          <tr>
+            <td>Jenis Kelamin</td>
+            <td>: <input type="radio" name="jk" id="jk" value="PR" /> Perempuan <input type="radio" name="jk" id="jk" value="LK" /> Laki-laki</td>
+          </tr>
+          <tr>
+            <td>Social Media</td>
+            <td>: <input type="checkbox" name="cek_fb" id="cek_fb" value="FB" /> FB <input type="checkbox" name="cek_ig" id="cek_ig" /> IG <input type="checkbox" name="cek_twitter" id="cek_twitter" /> Twitter</td>
+          </tr>
+          <tr>
+            <td>Agama</td>
+            <td>
+              :
+              <select name="agama" id="agama">
+                <option value="">--Pilih Agama--</option>
+                <option value="Islam">Islam</option>
+                <option value="Kristen">Kristen</option>
+                <option value="Hindu">Hindu</option>
+              </select>
+            </td>
+          </tr>
+          <tr>
+            <td>Alamat</td>
+            <td>: <textarea name="alamat" id="alamat" cols="30" rows="5" placeholder="masukan alamat lengkap"></textarea></td>
+          </tr>
+          <tr>
+            <td>Provinsi</td>
+            <td>
+              :
+              <input list="listprovinsi" name="provinsi" />
+              <datalist id="listprovinsi">
+                <option value="Jatim">Jatim</option>
+                <option value="Jateng">Jateng</option>
+                <option value="Jabar">Jabar</option>
+                <option value="Bali">Bali</option>
+              </datalist>
+            </td>
+          </tr>
+          <tr>
+            <td><label for="filefoto">Upload Foto</label></td>
+            <td>
+              :
+              <input type="file" name="filefoto" id="filefoto" />
+            </td>
+          </tr>
+        </table>
+        <hr />
+        <button type="button" name="btn_button" id="btn_button">Tombol</button>
+        <button type="submit" name="btn_submit" id="btn_submit">Simpan</button>
+        <button type="reset" name="btn_reset" id="btn_reset">Reset</button>
+      </fieldset>
+    </form>
+    <svg width="100" height="100">
+      <circle cx="50" cy="50" r="40" stroke="green" stroke-width="4" fill="yellow" />
+    </svg>
+
+    <svg width="400" height="100">
+      <rect width="400" height="100" style="fill: rgb(0, 0, 255); stroke-width: 10; stroke: rgb(0, 0, 0)" />
+    </svg>
+  </body>
+</html>

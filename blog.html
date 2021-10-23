@@ -25,13 +25,13 @@
       }
       nav li a {
         color: white;
-        margin-left: 5px;
-        margin-right: 5px;
+        margin-left: 10px;
+        margin-right: 10px;
         font-weight: bold;
         border-right: greenyellow 2px double;
         border-left: greenyellow 2px double;
-        padding-left: 5px;
-        padding-right: 5px;
+        padding-left: 10px;
+        padding-right: 10px;
 
         display: block;
         float: left;
@@ -83,10 +83,28 @@
         padding-right: 20px;
         position: relative;
       }
-
+      .blog {
+        width: 72%;
+        float: left;
+        margin-left: 30px;
+        position: relative;
+        line-height: 15pt;
+        /* border: #78eeee solid 1px; */
+      }
+      .blog img {
+        vertical-align: baseline;
+        display: inline;
+      }
+      .blog p {
+        text-align: justify;
+        vertical-align: text-top;
+      }
       .subkonten {
         padding: 15px;
         text-align: justify;
+        background-color: #d0f7f7;
+        margin-bottom: 10px;
+        border: #78eeee solid 1px;
       }
       .subkonten ul li {
         list-style-type: georgian;
@@ -126,7 +144,6 @@
         <ul>
           <li><a href="index.html">HOME</a></li>
           <li><a a href="blog.html">MY BLOG</a></li>
-          <li><a a href="formdaftar.html" target="_blank">DAFTAR</a></li>
         </ul>
       </span>
 
@@ -142,92 +159,25 @@
     <header>
       <h1 class="headtitle">Ani Nur Hidayati</h1>
     </header>
-    <aside class="menukiri">
-      <img src="img/aninur.jpg" width="200" alt="" class="profil" />
-      <h3>Kontak</h3>
-      <ul type="square">
-        <li><b>Email</b> <a href="mailto:aninur.h@gmail.com">aninur.h@gmail.com</a></li>
-        <li><b>Whatsapp</b> <a href="https://wa.me/+6281339364971">klik chat</a></li>
-        <li>
-          <b><a href="http://" target="_blank">My Linked</a></b>
-        </li>
-      </ul>
-      <hr />
-      <h3>Hobby</h3>
-      <!-- “square” , “circle” , “ordered” -->
-      <ul type="ordered">
-        <li>Travelling Alam</li>
-        <li>Crafting</li>
-      </ul>
-    </aside>
-    <section class="konten">
+    <section class="blog">
       <div class="subkonten">
-        <h3>PROFIL</h3>
+        <h3>Apa itu HTML???</h3>
         <hr />
         <p>
-          Saya mengenal di dunia programming sejak tahun 2008, tepatnya dimulai saat saya melaksanakan PKL di sebuah perusahaan. Sejak saat itu saya semakin tertarik di Bidang ini, hingga pada tahun 2011 setelah lulus kuliah, saya bekerja sebagai programmer. Beberapa bahasa program seperti java,
-          c++, angularJS, .NET, PHP, javascript pernah saya digunakan selama menjadi seorang praktisi di Bidang programming. <br />
-          Untuk saat ini, saya bekerja sebagai freelance web developer, Tutor Online, dan Dosen.
+          <img src="img/htmllogo.png" width="100" alt="" /> (Hypertext Markup Language) adalah bahasa markup standar untuk membuat dan menyusun halaman dan aplikasi web. HTML dibuat oleh Tim Berners-Lee, seorang ahli fisika di lembaga penelitian CERN yang berlokasi di Swiss. Versi pertamanya dirilis
+          pada tahun 1991, dengan 18 tag. <br />
+          <b>Bagaimana Cara Kerja HTML?</b> File HTML diakhiri dengan ekstensi .html atau .htm. Ekstensi file ini bisa dilihat dengan mengunakan web browser apa pun (seperti Google Chrome, Safari, atau Mozila Firefox).  
         </p>
       </div>
       <div class="subkonten">
-        <h3>RIWAYAT PENDIDIKAN</h3>
+        <h3>Apa itu HTML???</h3>
         <hr />
-        <table class="education" align="center">
-          <thead>
-            <tr>
-              <th>Pendidikan</th>
-              <th>Tahun</th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr>
-              <td>MTsN Bakalan Rayung Jombang</td>
-              <td>2004-2007</td>
-            </tr>
-            <tr>
-              <td>SMK Telekomunikasi Darul’Ulum Jombang</td>
-              <td>2007-2008</td>
-            </tr>
-            <tr>
-              <td>Diploma III Manajemen Informatika Universitas BSI Jakarta</td>
-              <td>2008-2011</td>
-            </tr>
-          </tbody>
-        </table>
+        <p>
+          <img src="img/htmllogo.png" width="100" alt="" /> (Hypertext Markup Language) adalah bahasa markup standar untuk membuat dan menyusun halaman dan aplikasi web. HTML dibuat oleh Tim Berners-Lee, seorang ahli fisika di lembaga penelitian CERN yang berlokasi di Swiss. Versi pertamanya dirilis
+          pada tahun 1991, dengan 18 tag. <br />
+          <b>Bagaimana Cara Kerja HTML?</b> File HTML diakhiri dengan ekstensi .html atau .htm. Ekstensi file ini bisa dilihat dengan mengunakan web browser apa pun (seperti Google Chrome, Safari, atau Mozila Firefox).  
+        </p>
       </div>
-
-      <div class="subkonten">
-        <h3>PENGALAMAN KERJA</h3>
-        <hr />
-        <ul>
-          <li>Asisten Instruktur Lab. Universitas BSI (2010)</li>
-          <li>Web Programmer PT.Indo Mega Vision (2011)</li>
-          <li>Web Programmer PT. Erafone Artha Retailindo (2012)</li>
-          <li>Programmer PT. ITPreneur Indonesia (2013)</li>
-          <li>Freelance Web Developer ,Tutor, Dosen (2017 – sekarang)</li>
-        </ul>
-      </div>
-      <br />
-      <!-- <table border="1" cellpadding="20">
-        <tbody>
-          <tr>
-            <td rowspan="2">1</td>
-            <td>A</td>
-            <td>B</td>
-          </tr>
-          <tr>
-            <td>C</td>
-            <td>D</td>
-          </tr>
-          <tr>
-            <td>x1</td>
-            <td>xA</td>
-            <td>xB</td>
-          </tr>
-        </tbody>
-      </table> -->
     </section>
-    <footer>aninur.h&copy; 2021</footer>
   </body>
 </html>
